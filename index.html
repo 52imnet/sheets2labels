@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Free Online Address Label Designer </title>
     <meta name="description" content="Free online tool to design and print labels. Import data from Excel or Google Sheets. Ideal for address labels, price tags, and asset tags. No software download required.">
     <meta name="keywords" content="label designer, print labels, excel to labels, google sheets labels, address labels, barcode generator">
-    
+
     <!-- Canonical URL -->
     <!-- Replace with your actual GitHub Pages URL -->
     <link rel="canonical" href="https://52imnet.github.io/sheets2labels/">
@@ -36,13 +36,48 @@
             height: 100%;
             border: none;
         }
+        .fork-me-wrapper {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            z-index: 9999;
+        }
+        .fork-me-ribbon {
+            background: linear-gradient(135deg, #FFD700 0%, #FDB931 100%);
+            color: #000;
+            text-decoration: none;
+            font-family: system-ui, -apple-system, sans-serif;
+            text-align: center;
+            font-weight: bold;
+            padding: 12px 40px;
+            font-size: 18px;
+            line-height: 1.5;
+            transform: rotate(45deg);
+            width: 300px;
+            position: absolute;
+            top: 45px;
+            right: -60px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            border: 1px solid #e0c800;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+        }
+        .fork-me-ribbon:hover {
+            background: linear-gradient(135deg, #ffe033 0%, #ffcc00 100%);
+            color: #000;
+        }
     </style>
 </head>
 <body>
-    <iframe 
-        src="https://sheetstolabels.com/label-designer" 
+<iframe
+        src="https://sheetstolabels.com/label-designer"
         title="Free Online Address Label Designer"
-        allow="clipboard-write" 
-    ></iframe>
+        allow="clipboard-write"
+></iframe>
+<div class="fork-me-wrapper">
+    <a href="https://sheetstolabels.com/label-designer" class="fork-me-ribbon" target="_blank">👑 Full Version</a>
+</div>
 </body>
 </html>
